@@ -1,0 +1,91 @@
+
+/* very important main title and img super cool
+hahahaha
+please dont forget about this
+*/
+
+.mainTitle {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #FFFFFF;
+    position: relative;
+    top: 50px;
+    left: 530px;
+
+    
+    animation: onStartup 1s ease forwards;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+
+/* please work please workplease workplease workplease workplease workplease workplease work all i want is rounded corners */
+.mainImage img {
+    position: relative;
+    top: 80px;
+    left: 530px;
+    border-radius: 50px;
+
+    animation: onStartupImg 1s ease forwards; 
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* jjfoefiheifhieshfoiehfoiehfoieshfoiehfoieshihisfejfesjfopejfoihefopheihoieshfioesfhioehiehiehsfihefiheiofhiehioesfhieshioehfioheifhesfhe */
+
+
+
+/* somethign textr important stuff */
+
+.mainText {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #FFFFFF;
+    position: relative;
+    top: -330px;
+    left: 900px;
+
+    animation: onStartupImportant 2s ease forwards;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+
+
+
+
+
+.mainText:hover {
+    transform: scale(1.04);
+    opacity: 20%;
+    cursor: pointer;
+}
+
+
+.mainImage img:hover {
+    transform: scale(1.1);
+    opacity: 75%;
+    cursor: pointer;         
+}
+
+
+
+.mainTitle:hover {
+    opacity: 50%;
+    cursor: pointer;         
+}
+
+
+
+/* animations i hoope i dont lsoe trackof these haha */
+
+@keyframes onStartupImportant {
+    from {left: 900px; opacity: 0;}
+    to {left: 630px; opacity: 1;}
+}
+
+
+@keyframes onStartup {
+  from {left: 530px;}
+  to {left: 100px;}
+}
+
+@keyframes onStartupImg {
+  from {left: 530px; border-radius: 350px}
+  to {left: 100px; border-radius: 50px}
+}
